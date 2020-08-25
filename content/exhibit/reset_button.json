@@ -1,0 +1,8 @@
+{
+  "tags": [
+
+  ],
+  "title": "reset_button",
+  "display_title": "Reset Insurance Button",
+  "body": "<p><img src=\"/thumbnail_reset1_a6a9b3993b.jpg\"></p><p>Worked with the team at Fjord, and John Murray Productions to create this massive reset button to promote the 'Three' insurance product by Berkshire Hathaway at their annual shareholder meeting in Omaha Nebraska.</p><p>The concept was to have this oversized reset button, that had some lighting effects, and when pressed the lights would change, and it would trigger a video on the wall behind it to play.</p><p><img src=\"/reset4_8448b41940.jpg\"></p><p>I whipped up an arduino controller that controlled the lighting over DMX, and connected to a computer as a USB keyboard, then coded a custom video player app in openframeworks to handle the video playback and keyboard control.</p><p></p><p></p><p><img src=\"/reset3_ba4ce7e7eb.jpg\"></p>"
+}

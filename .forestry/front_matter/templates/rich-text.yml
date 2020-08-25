@@ -17,3 +17,5 @@ fields:
     schema:
       format: html-blocks
   label: body
+pages:
+- content/exhibit/reset_button.json
