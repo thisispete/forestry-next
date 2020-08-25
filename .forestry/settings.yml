@@ -13,6 +13,7 @@ sections:
   match: "**/*"
   new_doc_ext: json
   templates:
+  - gallery
   - blog-post
 - type: document
   path: content/work/identity.json
