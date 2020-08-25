@@ -7,3 +7,5 @@ fields:
   config: {}
   template: post
   label: post
+pages:
+- content/play/dj/nightlife-1.json
