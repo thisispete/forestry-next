@@ -8,11 +8,12 @@ fields:
   config:
     required: true
   label: Slug
-- name: title
+- name: display_title
   type: text
   config:
     required: false
   label: Title
+  default: ''
 - name: tags
   type: tag_list
   default: []
