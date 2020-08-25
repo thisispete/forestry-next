@@ -8,16 +8,30 @@
   "content": [
     {
       "template": "image-block",
-      "image": "https://s3.amazonaws.com/cms.thisispete.com/reset1_a6a9b3993b.jpg"
+      "image": "https://s3.amazonaws.com/cms.thisispete.com/reset1_a6a9b3993b.jpg",
+      "alt_text": "Giant novelty button with the word 'reset' displayed, electronics"
     },
     {
       "template": "rich-text-block",
       "text": "<p>Worked with the team at Fjord, and John Murray Productions to create this massive reset button to promote the 'Three' insurance product by Berkshire Hathaway at their annual shareholder meeting in Omaha Nebraska.</p>"
     },
     {
+      "template": "rich-text-block",
+      "text": "<p>The concept was to have this oversized reset button, that had some lighting effects, and when pressed the lights would change, and it would trigger a video on the wall behind it to play.</p>"
+    },
+    {
+      "template": "image-block",
+      "image": "https://s3.amazonaws.com/cms.thisispete.com/reset4_8448b41940.jpg",
+      "alt_text": "Trade show booth rendering with giant reset button"
+    },
+    {
+      "template": "rich-text-block",
+      "text": "<p>I whipped up an arduino controller that controlled the lighting over DMX, and connected to a computer as a USB keyboard, then coded a custom video player app in open-frameworks to handle the video playback and keyboard control.</p><p><br></p>"
+    },
+    {
       "template": "video-block",
-      "vimeo_id": "9765184ww2",
-      "title": "frankie goes to hollywood"
+      "vimeo_id": "332487293",
+      "title": "button demo"
     }
   ]
 }
