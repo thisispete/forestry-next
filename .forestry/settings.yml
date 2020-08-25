@@ -13,7 +13,7 @@ sections:
   match: "**/*"
   new_doc_ext: json
   templates:
-  - rich-text
+  - blog-post
 - type: document
   path: content/work/identity.json
   label: Identity
