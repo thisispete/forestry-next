@@ -1,6 +1,7 @@
 ---
-label: resume
+label: Resume
 hide_body: true
+display_field: mission
 fields:
 - name: mission
   type: textarea

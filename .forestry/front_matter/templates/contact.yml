@@ -1,5 +1,5 @@
 ---
-label: contact
+label: Contact List
 hide_body: true
 fields:
 - name: links
@@ -9,17 +9,18 @@ fields:
     type: text
     config:
       required: true
-    label: url
+    label: URL
   - name: hover
     type: text
     config:
       required: true
-    label: hover
+    label: Hover Text
   - name: icon
     type: file
     config:
       maxSize: 64
-    label: icon
+    label: SVG Icon
+    description: 60x60 fill:#ccc
   config:
     min: 
     max: 

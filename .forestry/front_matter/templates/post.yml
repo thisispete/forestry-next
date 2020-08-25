@@ -1,7 +1,6 @@
 ---
-label: post
+label: Post Template
 hide_body: true
-display_field: slug
 fields:
 - name: title
   type: text
