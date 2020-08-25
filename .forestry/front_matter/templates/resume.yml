@@ -26,18 +26,35 @@ fields:
   fields:
   - name: list
     type: field_group_list
+    fields:
+    - name: qualification
+      type: text
+      config:
+        required: true
+      label: Qualification
     config:
       min: 
       max: 
       labelField: 
     label: list
-  - name: fpp
-    type: blocks
-    label: fpp
-    template_types: []
+  - name: expert
+    type: textarea
+    default: ''
     config:
-      min: 
-      max: 
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Expert Skills
+  - name: experience
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Experience Skills
   label: Qualifications
 - name: work_experience
   type: field_group_list
