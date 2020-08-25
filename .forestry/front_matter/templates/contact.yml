@@ -10,6 +10,11 @@ fields:
     config:
       required: true
     label: url
+  - name: hover
+    type: text
+    config:
+      required: true
+    label: hover
   - name: icon
     type: file
     config:
@@ -20,3 +25,5 @@ fields:
     max: 
     labelField: 
   label: contact links
+pages:
+- content/about/contact.json
