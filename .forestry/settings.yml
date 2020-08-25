@@ -7,19 +7,17 @@ sections:
 - type: heading
   label: Work
 - type: directory
-  path: content/work
-  label: posts
+  path: content/exhibit
+  label: Exhibit
   create: all
   match: "**/*"
-  new_doc_ext: json
+  new_doc_ext: ".json"
+- type: document
+  path: content/work/identity.json
+  label: Identity
+  match: "**/*"
 - type: heading
   label: Play
-- type: directory
-  path: content/play
-  label: posts
-  create: all
-  match: "**/*"
-  new_doc_ext: json
 - type: heading
   label: About
 - type: document
