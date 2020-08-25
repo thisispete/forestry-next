@@ -15,7 +15,7 @@ fields:
     required: true
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: html
   label: body
 pages:
 - content/exhibit/reset_button.json
