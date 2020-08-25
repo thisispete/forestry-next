@@ -8,6 +8,16 @@ fields:
   config:
     required: false
   label: Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Description
+  description: optional text displayed above the video
 - name: vimeo_id
   type: text
   config:
