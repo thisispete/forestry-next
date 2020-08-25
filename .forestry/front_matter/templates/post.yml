@@ -1,4 +1,13 @@
 ---
-label: Post
+label: post
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: tags
+  type: tag_list
+  default: []
+  label: tags

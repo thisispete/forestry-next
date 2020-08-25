@@ -1,0 +1,9 @@
+---
+label: audio
+hide_body: true
+fields:
+- name: post
+  type: include
+  config: {}
+  template: post
+  label: post
