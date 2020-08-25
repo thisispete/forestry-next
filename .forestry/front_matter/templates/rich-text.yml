@@ -8,18 +8,12 @@ fields:
   config: {}
   template: post
   label: post template
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: body
 - name: content
   type: blocks
-  template_types: []
+  template_types:
+  - rich-text-block
+  - image-block
+  - video-block
   config:
     min: 
     max: 
