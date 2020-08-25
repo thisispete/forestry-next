@@ -1,6 +1,6 @@
 ---
 label: resume
-hide_body: false
+hide_body: true
 fields:
 - name: body
   type: textarea
@@ -16,3 +16,5 @@ fields:
   config:
     required: false
   label: pdf
+pages:
+- content/about/resume.json
