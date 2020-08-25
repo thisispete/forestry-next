@@ -11,7 +11,7 @@ fields:
 - name: title
   type: text
   config:
-    required: true
+    required: false
   label: Title
 - name: tags
   type: tag_list
