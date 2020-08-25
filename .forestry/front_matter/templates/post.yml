@@ -8,12 +8,14 @@ fields:
   config:
     required: true
   label: Slug
+  description: filename and path<br><strong>use underscores!</strong>
 - name: display_title
   type: text
   config:
-    required: false
+    required: true
   label: Title
   default: ''
+  description: Title for display purposes
 - name: tags
   type: tag_list
   default: []
