@@ -11,6 +11,14 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+- name: videos
+  type: blocks
+  label: Videos
+  template_types:
+  - video-block
+  config:
+    min: 
+    max: 
 - name: description
   type: textarea
   default: ''
