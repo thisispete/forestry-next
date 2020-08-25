@@ -8,3 +8,5 @@ fields:
   config: {}
   template: post
   label: post
+pages:
+- content/play/dj/nightlife_1.json
