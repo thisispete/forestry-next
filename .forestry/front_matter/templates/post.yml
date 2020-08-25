@@ -1,7 +1,13 @@
 ---
 label: post
 hide_body: true
+display_field: slug
 fields:
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
 - name: title
   type: text
   config:
@@ -10,4 +16,4 @@ fields:
 - name: tags
   type: tag_list
   default: []
-  label: tags
+  label: Tags

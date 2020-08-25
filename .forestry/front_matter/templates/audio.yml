@@ -8,5 +8,4 @@ fields:
   template: post
   label: post
 pages:
-- content/play/dj/nightlife-1.json
-- content/play/dj/nightlife-2.json
+- content/play/dj/test-page.json
