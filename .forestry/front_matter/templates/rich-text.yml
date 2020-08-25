@@ -1,6 +1,7 @@
 ---
 label: rich text
 hide_body: true
+display_field: title
 fields:
 - name: post_template
   type: include
