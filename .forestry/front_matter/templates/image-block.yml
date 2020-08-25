@@ -1,7 +1,13 @@
 ---
 label: image block
 hide_body: true
+display_field: alt_text
 fields:
+- name: alt_text
+  type: text
+  config:
+    required: false
+  label: Alt text
 - name: image
   type: file
   config:
