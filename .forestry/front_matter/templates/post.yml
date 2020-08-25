@@ -3,7 +3,7 @@ label: post
 hide_body: true
 display_field: slug
 fields:
-- name: name
+- name: title
   type: text
   config:
     required: true
