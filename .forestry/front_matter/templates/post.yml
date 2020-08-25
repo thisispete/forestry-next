@@ -16,7 +16,3 @@ fields:
   label: Title
   default: ''
   description: Title for display purposes
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
