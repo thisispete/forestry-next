@@ -1,7 +1,7 @@
 ---
 label: audio
 hide_body: true
-display_field: name
+display_field: display_title
 fields:
 - name: post
   type: include
