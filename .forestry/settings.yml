@@ -11,7 +11,7 @@ sections:
   label: posts
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: heading
   label: Play
 - type: directory
@@ -19,17 +19,15 @@ sections:
   label: posts
   create: all
   match: "**/*"
-  new_doc_ext: ".json"
+  new_doc_ext: json
 - type: heading
   label: About
 - type: document
   path: content/about/resume.json
   label: Resume
-  match: "**/*"
 - type: document
   path: content/about/contact.json
   label: Contact
-  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
@@ -41,4 +39,4 @@ build:
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: yarn dev
+  instant_preview_command: yarn build
