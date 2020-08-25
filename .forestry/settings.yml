@@ -40,7 +40,7 @@ sections:
   label: Contact
 upload_dir: ''
 public_path: ''
-front_matter_path: s3.amazonaws.com/cms.thisispete.com
+front_matter_path: https://s3.amazonaws.com/cms.thisispete.com
 use_front_matter_path: true
 file_template: ":filename:"
 build:
