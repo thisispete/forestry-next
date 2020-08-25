@@ -11,7 +11,7 @@ fields:
     schema:
       format: html-blocks
   label: Mission
-- name: qualifications
+- name: qualifications2
   type: textarea
   default: ''
   config:
@@ -19,6 +19,25 @@ fields:
     wysiwyg: true
     schema:
       format: html-blocks
+  label: Qualifications
+- name: qualifications
+  type: field_group
+  config: {}
+  fields:
+  - name: list
+    type: field_group_list
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: list
+  - name: fpp
+    type: blocks
+    label: fpp
+    template_types: []
+    config:
+      min: 
+      max: 
   label: Qualifications
 - name: work_experience
   type: field_group_list
@@ -38,7 +57,7 @@ fields:
     config:
       required: true
     label: Date Range
-  - name: experience
+  - name: description
     type: textarea
     default: ''
     config:
@@ -46,20 +65,36 @@ fields:
       wysiwyg: true
       schema:
         format: html-blocks
-    label: Experience
+    label: Description
   config:
     min: 
     max: 
     labelField: company
   label: Work Experience
 - name: education
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
+  type: field_group
+  config: {}
+  fields:
+  - name: school
+    type: text
+    config:
+      required: true
+    label: School
+  - name: degree
+    type: text
+    config:
+      required: true
+    label: Degree
+  - name: date
+    type: text
+    config:
+      required: true
+    label: Date
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Description
   label: Education
 - name: pdf
   type: text
