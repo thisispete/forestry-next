@@ -17,5 +17,12 @@ fields:
     schema:
       format: html-blocks
   label: body
+- name: content
+  type: blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  label: content
 pages:
 - content/exhibit/reset_button.json
