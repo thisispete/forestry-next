@@ -4,12 +4,32 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Work
 - type: directory
-  path: content
-  label: Posts
+  path: content/work
+  label: posts
   create: all
   match: "**/*"
-  new_doc_ext: json
+  new_doc_ext: ".json"
+- type: heading
+  label: Play
+- type: directory
+  path: content/play
+  label: posts
+  create: all
+  match: "**/*"
+  new_doc_ext: ".json"
+- type: heading
+  label: About
+- type: document
+  path: content/about/resume.json
+  label: Resume
+  match: "**/*"
+- type: document
+  path: content/about/contact.json
+  label: Contact
+  match: "**/*"
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
