@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Work
 - type: directory
-  path: content/exhibit
+  path: content/work/exhibit
   label: Exhibit
   create: all
   match: "**/*"

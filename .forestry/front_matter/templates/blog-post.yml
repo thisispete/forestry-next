@@ -22,5 +22,3 @@ fields:
   config:
     required: false
   label: Footer
-pages:
-- content/exhibit/reset_button.json
