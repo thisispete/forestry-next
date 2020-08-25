@@ -32,6 +32,21 @@ fields:
 - name: work_experience
   type: field_group_list
   fields:
+  - name: position
+    type: text
+    config:
+      required: true
+    label: Position
+  - name: company
+    type: text
+    config:
+      required: true
+    label: Company
+  - name: date_range
+    type: text
+    config:
+      required: true
+    label: Date Range
   - name: experience
     type: textarea
     default: ''
@@ -44,7 +59,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: company
   label: Work Experience
 - name: education
   type: textarea
