@@ -1,4 +1,9 @@
 ---
 label: video block
 hide_body: true
-fields: []
+fields:
+- name: vimeo_id
+  type: text
+  config:
+    required: false
+  label: Vimeo ID
