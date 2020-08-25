@@ -1,4 +1,22 @@
 ---
 label: contact
 hide_body: false
-fields: []
+fields:
+- name: links
+  type: field_group_list
+  fields:
+  - name: url
+    type: text
+    config:
+      required: true
+    label: url
+  - name: icon
+    type: file
+    config:
+      maxSize: 64
+    label: icon
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: contact links
