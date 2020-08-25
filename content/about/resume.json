@@ -1,5 +1,5 @@
 {
-  "body": "<h2><br>Work Experience</h2><h3><br></h3><h3><br>Senior Engineer - Creative Technology <br>MATTER (acquired by Fjord / Accenture) Jan 2017 - May 2019</h3><p>Lead technical consultant &amp; prototype engineer for a team of experience and industrial designers. Duties include; research, prototype engineering hardware and software, user testing, UX development, fabrication, consulting, make-shop management, internal education. Projects in the VR, AR, medical technology, robotics, consumer electronics, and point of sale and exhibit design spaces.</p><h3>Senior Engineer II - Front End | Full-Stack | Native<br>Odopod (acquired by Nurun / Publicis) Jan 2008 - Nov 2016</h3><p>Long-term senior role for interactive design agency, focused on front end development, software architecture, dev tools, point-of-sale interactive experiences, multi-screen systems, internet of things, native iOS development, research &amp; development, mentorship and team building.<br>Notable projects include; Tesla retail store kiosk experiences, Audemars Piguet point-of-sale, Sony.com, Nest.com, various award winning creative marketing websites.<br>Clients include; HP, Nike, Tesla, Honda, BF Goodrich, Nest, Dolby Labs, Audemars Piguet, EA Games, Coca-cola, Subzero Wolf, Google, Microsoft, and Sony.</p><h3>Senior Engineer - Front End <br>Attik, June 2006 - Aug 2007</h3><p>Lead engineer / technical team management for advertising and marketing firm. Worked on developing several large promotional sites and marketing campaigns for Scion Lexus, including framework / architecture development and coordinating to onboard and integrate code from external engineering teams across several countries.</p><h2>Education</h2><h3>BFA, May 2001. NYSCC, School of Art and Design at Alfred University.</h3><p>Studies focused on electronic art, graphic and interactive Design.</p>",
+  "body": "<p></p>",
   "pdf": "http://thisispete.com/pete_schirmer_resume_2020.pdf",
   "mission": "<p>I focus on making interactive experiences beyond the desktop. Projects that spark my interest are physical experiences like museum exhibits, point of sale experiences, dedicated UI for hardware, car dashboards, consumer electronics, rapid prototyping, R&amp;D etc. Im very interested in the DIY \"make\" movement, internet of things, rapid prototyping for product development, and ultimately working with other creatives to create delightful and memorable experiences. I love problem solving, working with design to solve tough UX problems, and feel it’s important to continue to learn and grow while I work, as the work itself grows and evolves around us.</p>",
   "qualifications": "<ul><li><p>Fast learner and skilled problem solver</p></li></ul><ul><li><p>Quick to pick up new languages and adapt with changing technological requirements</p></li><li><p>Ability to explain complicated technologies and concepts to non-technical audiences</p></li><li><p>Strong foundation in design across physical, visual, and user experience</p></li><li><p>Dedication to creative craftsmanship, attention to detail, documentation, and usability</p></li><li><p>Experience as a mentor, teacher, and team leader</p></li></ul><h3><br>Expert:</h3><p>Javascript, ES6, Node.js, Express, React, Gulp, CSS, LESS, SCSS, Headless CMS, Responsive, Objective-C, ActionScript, build systems, static site generators, dev tool development, Arduino, Raspberry Pi, Fusion 360, Photoshop, Illustrator, UX Design</p><h3><br>Experience:</h3><p>Native iOS, Swift, C++, C#, JQuery, Next.js, Redux, Electron, Pug, Nunjucks, SQL, NoSQL, RegEx, Agile, Dev Ops, Docker, CI, Ansible, Git, Lint, REST APIs, ARKit, A-frame, THREE.js, VR, Unity, Open Frameworks, Mac OS native, Circuit board design, Bluetooth, RFID, 3D-Printing, Laser Cutting, Rhino, Grasshopper, CAM, CNC Milling, Video Editing, UI Design, Logo &amp; Branding, Layout, Sketch, Figma</p>",
@@ -9,7 +9,25 @@
       "position": "Prototype Engineer - Full-Stack | Creative Technology",
       "company": "Twitter",
       "date_range": "Oct 2019 - Aug 2020"
+    },
+    {
+      "position": "Senior Engineer - Creative Technology ",
+      "company": "MATTER (acquired by Fjord / Accenture)",
+      "date_range": "Jan 2017 - May 2019",
+      "experience": "<p>Lead technical consultant &amp; prototype engineer for a team of experience and industrial designers. Duties include; research, prototype engineering hardware and software, user testing, UX development, fabrication, consulting, make-shop management, internal education. Projects in the VR, AR, medical technology, robotics, consumer electronics, and point of sale and exhibit design spaces.</p>"
+    },
+    {
+      "position": "Senior Engineer II - Front End | Full-Stack | Native",
+      "company": "Odopod (acquired by Nurun / Publicis)",
+      "date_range": "Jan 2008 - Nov 2016",
+      "experience": "<p>Long-term senior role for interactive design agency, focused on front end development, software architecture, dev tools, point-of-sale interactive experiences, multi-screen systems, internet of things, native iOS development, research &amp; development, mentorship and team building.<br>Notable projects include; Tesla retail store kiosk experiences, Audemars Piguet point-of-sale, Sony.com, Nest.com, various award winning creative marketing websites.<br>Clients include; HP, Nike, Tesla, Honda, BF Goodrich, Nest, Dolby Labs, Audemars Piguet, EA Games, Coca-cola, Subzero Wolf, Google, Microsoft, and Sony.</p>"
+    },
+    {
+      "position": "Senior Engineer - Front End ",
+      "company": "Attik",
+      "date_range": "June 2006 - Aug 2007",
+      "experience": "<p>Lead engineer / technical team management for advertising and marketing firm. Worked on developing several large promotional sites and marketing campaigns for Scion Lexus, including framework / architecture development and coordinating to onboard and integrate code from external engineering teams across several countries.</p>"
     }
   ],
-  "education": ""
+  "education": "<h3>BFA, May 2001. NYSCC, School of Art and Design at Alfred University.</h3><p>Studies focused on electronic art, graphic and interactive Design.</p>"
 }
