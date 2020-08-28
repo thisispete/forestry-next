@@ -6,18 +6,41 @@ fields:
   name: nav
   label: nav
   fields:
-  - type: text
-    name: type
+  - name: type
+    type: select
+    default: []
+    config:
+      required: true
+      options:
+      - post
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
     label: type
   - type: text
     name: slug
     label: slug
+    config:
+      required: true
   - type: field_group_list
     name: items
     label: items
     fields:
-    - type: text
-      name: type
+    - name: type
+      type: select
+      default: post
+      config:
+        required: true
+        options:
+        - post
+        - submenu
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
       label: type
     - type: text
       name: slug
@@ -27,8 +50,25 @@ fields:
       label: items
       fields:
       - type: text
-        name: type
-        label: type
-      - type: text
         name: slug
         label: slug
+      - name: type
+        type: select
+        default: []
+        config:
+          required: true
+          options:
+          - post
+          - submenu
+          source:
+            type: simple
+            section: 
+            file: 
+            path: 
+        label: type
+      config:
+        labelField: slug
+    config:
+      labelField: slug
+  config:
+    labelField: slug
