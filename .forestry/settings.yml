@@ -35,7 +35,7 @@ sections:
   - blog-post
 - type: document
   path: content/work/identity.json
-  label: identity
+  label: Identity
 - type: document
   path: content/work/promotional.json
   label: Promotional
@@ -47,7 +47,7 @@ sections:
   new_doc_ext: json
   templates:
   - gallery
-  - blog-post 
+  - blog-post
 - type: heading
   label: Play
 - type: directory
@@ -58,10 +58,10 @@ sections:
   new_doc_ext: json
   templates:
   - gallery
-  - blog-post 
+  - blog-post
 - type: document
   path: content/play/photo.json
-  label: photo
+  label: Photo
 - type: directory
   path: content/play/furniture
   label: Furniture
@@ -70,7 +70,7 @@ sections:
   new_doc_ext: json
   templates:
   - gallery
-  - blog-post 
+  - blog-post
 - type: directory
   path: content/play/furnishings
   label: Furnishings
@@ -79,7 +79,7 @@ sections:
   new_doc_ext: json
   templates:
   - gallery
-  - blog-post 
+  - blog-post
 - type: directory
   path: content/play/vj
   label: VJ
