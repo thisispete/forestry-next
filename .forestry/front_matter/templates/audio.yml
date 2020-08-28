@@ -1,7 +1,7 @@
 ---
 label: DJ Recording
 hide_body: true
-display_field: display_title
+display_field: title
 fields:
 - name: template
   type: include
