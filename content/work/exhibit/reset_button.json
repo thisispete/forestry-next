@@ -39,5 +39,6 @@
       "image": "https://s3.amazonaws.com/cms.thisispete.com/reset2_e54b3ee3ff.jpg"
     }
   ],
-  "footer": ""
+  "footer": "",
+  "template": "blog"
 }
