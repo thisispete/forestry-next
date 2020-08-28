@@ -39,5 +39,6 @@
     "description": "Studies focused on electronic art, graphic and interactive Design."
   },
   "title": "resume",
-  "display_title": "Pete Schirmer Resume 2020"
+  "display_title": "Pete Schirmer Resume 2020",
+  "template": "resume"
 }
