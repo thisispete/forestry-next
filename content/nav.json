@@ -1,5 +1,75 @@
 {
   "nav": [
+    {
+      "type": "submenu",
+      "slug": "work",
+      "items": [
+        {
+          "type": "submenu",
+          "slug": "exhibit",
+          "items": [
+            {
+              "type": [
+                "post"
+              ],
+              "slug": "reset_button"
+            },
+            {
+              "type": [
+                "post"
+              ],
+              "slug": "honda_kiosks"
+            }
+          ]
+        },
+        {
+          "type": "post",
+          "slug": "identity",
+          "items": [
 
+          ]
+        }
+      ]
+    },
+    {
+      "type": "submenu",
+      "slug": "play",
+      "items": [
+        {
+          "type": "post",
+          "slug": "photo",
+          "items": [
+
+          ]
+        },
+        {
+          "type": "submenu",
+          "slug": "dj",
+          "items": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "type": "submenu",
+      "slug": "about",
+      "items": [
+        {
+          "type": "post",
+          "slug": "resume",
+          "items": [
+
+          ]
+        },
+        {
+          "type": "post",
+          "slug": "contact",
+          "items": [
+
+          ]
+        }
+      ]
+    }
   ]
 }

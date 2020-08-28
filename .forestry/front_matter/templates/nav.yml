@@ -68,3 +68,5 @@ fields:
       labelField: slug
   config:
     labelField: slug
+pages:
+- content/nav.json
