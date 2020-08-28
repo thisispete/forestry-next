@@ -1,0 +1,34 @@
+---
+label: Nav
+hide_body: true
+fields:
+- type: field_group_list
+  name: nav
+  label: nav
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: slug
+    label: slug
+  - type: field_group_list
+    name: items
+    label: items
+    fields:
+    - type: text
+      name: type
+      label: type
+    - type: text
+      name: slug
+      label: slug
+    - type: field_group_list
+      name: items
+      label: items
+      fields:
+      - type: text
+        name: type
+        label: type
+      - type: text
+        name: slug
+        label: slug

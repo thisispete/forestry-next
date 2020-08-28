@@ -44,7 +44,6 @@ sections:
 - type: document
   path: content/nav.json
   label: Nav
-  match: "**/*"
 upload_dir: ''
 public_path: https://s3.amazonaws.com/cms.thisispete.com
 front_matter_path: ''
