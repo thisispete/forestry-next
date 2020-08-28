@@ -15,5 +15,5 @@ fields:
   - submenu
   - link
   config:
-    min: 
+    min: 2
     max: 
