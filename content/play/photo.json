@@ -8,5 +8,8 @@
   "videos": [
 
   ],
-  "template": "gallery"
+  "template": "gallery",
+  "post": [
+
+  ]
 }
