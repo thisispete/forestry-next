@@ -1,4 +1,5 @@
 {
+  "template": "gallery",
   "title": "identity",
   "display_title": "Identity",
   "description": "",
@@ -7,10 +8,5 @@
   ],
   "videos": [
 
-  ],
-  "template": "gallery",
-  "content": [
-
-  ],
-  "footer": ""
+  ]
 }

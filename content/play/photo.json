@@ -1,4 +1,5 @@
 {
+  "template": "gallery",
   "title": "photo",
   "display_title": "Photo Archive",
   "description": "",
@@ -8,7 +9,6 @@
   "videos": [
 
   ],
-  "template": "gallery",
   "post": [
 
   ]
