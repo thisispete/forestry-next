@@ -7,65 +7,11 @@ fields:
   label: nav
   fields:
   - name: type
-    type: select
-    default:
-    - submenu
+    type: text
     config:
       required: true
-      options:
-      - post
-      - submenu
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
     label: type
-  - type: text
-    name: slug
-    label: slug
-    config:
-      required: true
-  - type: field_group_list
-    name: items
-    label: items
-    fields:
-    - name: type
-      type: select
-      default: post
-      config:
-        required: true
-        options:
-        - post
-        - submenu
-        source:
-          type: simple
-          section: 
-          file: 
-          path: 
-      label: type
-    - type: text
-      name: slug
-      label: slug
-    - type: field_group_list
-      name: items
-      label: items
-      fields:
-      - name: type
-        type: text
-        default:
-        - post
-        label: type
-      - type: text
-        name: slug
-        label: slug
-        config:
-          required: true
-        default: post
-      config:
-        labelField: slug
-    config:
-      labelField: slug
+    default: submenu
   config:
     labelField: slug
 pages:
