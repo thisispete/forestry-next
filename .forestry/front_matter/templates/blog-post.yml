@@ -24,3 +24,4 @@ fields:
   label: Footer
 pages:
 - content/work/exhibit/reset_button.json
+- content/work/identity.json

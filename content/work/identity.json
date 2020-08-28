@@ -8,5 +8,9 @@
   "videos": [
 
   ],
-  "template": "gallery"
+  "template": "gallery",
+  "content": [
+
+  ],
+  "footer": ""
 }
