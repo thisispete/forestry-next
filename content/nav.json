@@ -4,7 +4,20 @@
       "template": "submenu",
       "slug": "work",
       "items": [
-
+        {
+          "template": "submenu",
+          "slug": "exhibit",
+          "items": [
+            {
+              "template": "link",
+              "post": "content/work/exhibit/reset_button.json"
+            },
+            {
+              "template": "link",
+              "post": "content/work/exhibit/honda_kiosks.json"
+            }
+          ]
+        }
       ]
     },
     {
