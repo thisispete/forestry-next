@@ -1,4 +1,16 @@
 ---
 label: Link
 hide_body: true
-fields: []
+fields:
+- name: post
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: 
+      file: 
+      path: 
+  label: Post
