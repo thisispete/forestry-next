@@ -17,7 +17,7 @@ sections:
   - blog-post
 - type: document
   path: content/work/identity.json
-  label: Identity
+  label: identity
 - type: heading
   label: Play
 - type: document
