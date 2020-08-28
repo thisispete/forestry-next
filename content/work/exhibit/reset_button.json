@@ -18,7 +18,7 @@
       "template": "video-block",
       "vimeo_id": "332487293",
       "title": "button demo",
-      "description": "<p>I whipped up an arduino controller that controlled the lighting over DMX, and connected to a computer as a USB keyboard, then coded a custom video player app in open-frameworks to handle the video playback and keyboard control.</p><p><br></p>"
+      "description": "<p>I whipped up an arduino controller that controlled the lighting over DMX, and connected to a computer as a USB keyboard, then coded a custom video player app in open-frameworks to handle the video playback and keyboard control.</p>"
     },
     {
       "template": "image-block",

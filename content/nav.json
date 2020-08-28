@@ -1,13 +1,63 @@
 {
   "nav": [
     {
-      "item": "work"
+      "type": "submenu",
+      "slug": "work",
+      "items": [
+        {
+          "type": "submenu",      
+          "slug": "exhibit",
+          "items":[
+            {
+              "type": "post",
+              "slug": "reset_button"
+            },
+            {
+              "type": "post",
+              "slug": "honda_kiosks"
+            }
+          ]
+        },
+        {
+          "type": "post",
+          "slug": "identity"
+        }
+
+      ]
     },
     {
-      "item": "play"
+      "type": "submenu",
+      "slug": "play",
+      "items": [
+        {
+          "type": "post",
+          "slug": "photos"
+        },
+        {
+          "type": "submenu",
+          "slug": "dj",
+          "items": [
+            {
+              "type": "post",
+              "slug": "nightlife_1"
+            }
+          ]
+        }
+      ]
     },
     {
-      "item": "about"
+      "type": "submenu",
+      "slug": "work",
+      "items": [
+        {
+          "type": "post",
+          "slug": "resume"
+        },
+        {
+          "type": "post",
+          "slug": "contact"
+        }
+      ]
     }
   ]
 }
