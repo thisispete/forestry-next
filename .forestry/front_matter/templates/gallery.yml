@@ -30,5 +30,6 @@ fields:
     min: 
     max: 
 pages:
+- content/play/photo.json
 - content/work/exhibit/honda_kiosks.json
 - content/work/identity.json
