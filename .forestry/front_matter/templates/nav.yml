@@ -8,11 +8,12 @@ fields:
   fields:
   - name: type
     type: select
-    default: []
+    default: ["submenu"]
     config:
       required: true
       options:
       - post
+      - submenu
       source:
         type: simple
         section: 
@@ -50,18 +51,8 @@ fields:
       label: items
       fields:
       - name: type
-        type: select
-        default: []
-        config:
-          required: true
-          options:
-          - post
-          - submenu
-          source:
-            type: simple
-            section: 
-            file: 
-            path: 
+        type: text
+        default: ["post"]
         label: type
       - type: text
         name: slug
