@@ -15,14 +15,79 @@ sections:
   templates:
   - gallery
   - blog-post
+- type: directory
+  path: content/work/prototyping
+  label: Prototyping
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - gallery
+  - blog-post
+- type: directory
+  path: content/work/web
+  label: Web
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - gallery
+  - blog-post
 - type: document
   path: content/work/identity.json
   label: identity
+- type: document
+  path: content/work/promotional.json
+  label: Promotional
+- type: directory
+  path: content/work/ui
+  label: UI
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - gallery
+  - blog-post 
 - type: heading
   label: Play
+- type: directory
+  path: content/play/art
+  label: Art
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - gallery
+  - blog-post 
 - type: document
   path: content/play/photo.json
   label: photo
+- type: directory
+  path: content/play/furniture
+  label: Furniture
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - gallery
+  - blog-post 
+- type: directory
+  path: content/play/furnishings
+  label: Furnishings
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - gallery
+  - blog-post 
+- type: directory
+  path: content/play/vj
+  label: VJ
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - audio
 - type: directory
   path: content/play/dj
   label: DJ
@@ -36,6 +101,12 @@ sections:
 - type: document
   path: content/about/resume.json
   label: Resume
+- type: document
+  path: content/about/bio.json
+  label: Bio
+- type: document
+  path: content/about/colophon.json
+  label: Colophon
 - type: document
   path: content/about/contact.json
   label: Contact
