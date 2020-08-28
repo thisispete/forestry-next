@@ -15,3 +15,21 @@ fields:
   label: Title
   default: ''
   description: Title for display purposes
+- name: template
+  type: select
+  default: []
+  config:
+    required: true
+    options:
+    - gallery
+    - blog
+    - resume
+    - contact
+    - audio
+    - video
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Template
