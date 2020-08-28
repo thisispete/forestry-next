@@ -3,6 +3,11 @@ label: Resume
 hide_body: true
 display_field: mission
 fields:
+- name: post_template
+  type: include
+  config: {}
+  template: post
+  label: post template
 - name: mission
   type: textarea
   default: ''
