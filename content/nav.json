@@ -1,0 +1,25 @@
+{
+  "nav": [
+    {
+      "template": "submenu",
+      "slug": "work",
+      "items": [
+
+      ]
+    },
+    {
+      "template": "submenu",
+      "slug": "play",
+      "items": [
+
+      ]
+    },
+    {
+      "template": "submenu",
+      "slug": "about",
+      "items": [
+
+      ]
+    }
+  ]
+}
