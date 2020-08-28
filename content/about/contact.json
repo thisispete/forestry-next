@@ -12,5 +12,6 @@
     }
   ],
   "title": "contact",
-  "display_title": "contact"
+  "display_title": "contact",
+  "template": "contact"
 }
