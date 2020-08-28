@@ -17,6 +17,10 @@
               "post": "content/work/exhibit/honda_kiosks.json"
             }
           ]
+        },
+        {
+          "template": "link",
+          "post": "content/work/identity.json"
         }
       ]
     },
@@ -24,14 +28,34 @@
       "template": "submenu",
       "slug": "play",
       "items": [
-
+        {
+          "template": "link",
+          "post": "content/play/photo.json"
+        },
+        {
+          "template": "submenu",
+          "slug": "dj",
+          "items": [
+            {
+              "template": "link",
+              "post": "content/play/dj/nightlife_1.json"
+            }
+          ]
+        }
       ]
     },
     {
       "template": "submenu",
       "slug": "about",
       "items": [
-
+        {
+          "template": "link",
+          "post": "content/about/resume.json"
+        },
+        {
+          "template": "link",
+          "post": "content/about/contact.json"
+        }
       ]
     }
   ]
