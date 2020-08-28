@@ -2,17 +2,13 @@
 label: Nav
 hide_body: true
 fields:
-- type: field_group_list
-  name: nav
-  label: nav
-  fields:
-  - name: type
-    type: text
-    config:
-      required: true
-    label: type
-    default: submenu
+- name: nav
+  type: blocks
+  label: Nav
+  template_types:
+  - submenu
   config:
-    labelField: slug
+    min: 
+    max: 
 pages:
 - content/nav.json
