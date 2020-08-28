@@ -2,6 +2,11 @@
 label: Contact List
 hide_body: true
 fields:
+- name: post_template
+  type: include
+  config: {}
+  template: post
+  label: post template
 - name: links
   type: field_group_list
   fields:
