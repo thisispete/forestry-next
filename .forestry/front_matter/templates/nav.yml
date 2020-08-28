@@ -8,7 +8,8 @@ fields:
   fields:
   - name: type
     type: select
-    default: ["submenu"]
+    default:
+    - submenu
     config:
       required: true
       options:
@@ -52,11 +53,15 @@ fields:
       fields:
       - name: type
         type: text
-        default: ["post"]
+        default:
+        - post
         label: type
       - type: text
         name: slug
         label: slug
+        config:
+          required: true
+        default: post
       config:
         labelField: slug
     config:
