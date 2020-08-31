@@ -2,13 +2,20 @@
 label: Nav
 hide_body: true
 fields:
-- name: nav
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
+  hidden: true
+  default: "/"
+- name: items
   type: blocks
-  label: Nav
   template_types:
   - submenu
   config:
     min: 
     max: 
+  label: items
 pages:
 - content/nav.json
