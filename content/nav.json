@@ -1,5 +1,6 @@
 {
-  "nav": [
+  "slug": "/",
+  "items": [
     {
       "template": "submenu",
       "slug": "work",
