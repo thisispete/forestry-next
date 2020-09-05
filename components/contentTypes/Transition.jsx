@@ -1,25 +1,33 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { useRouter } from 'next/router';
 
-export default funciton Transition() {
+export default function Transition({children}) {
 
   const router = useRouter();
-  const key = router.query.slug.join('');
+  const key = router.query.slug ? router.query.slug.join('') : '';
 
   let varients = {
     hidden: {
-      opacity: 0
+      '--blur': '3px',
+      opacity: 0,
+      filter: 'blur(var(--blur))',
     },
     visible: {
+      '--blur': '0px',
       opacity: 1,
+      filter: 'blur(var(--blur))',
       transition: {
-        duration: 1
+        ease: 'easeIn',
+        duration: .15
       }
     },
     exit: {
+      '--blur': '3px',
       opacity: 0,
+      filter: 'blur(var(--blur))',
       transition: {
-        duration: 1
+        ease: 'easeInOut',
+        duration: .15
       }
     }
   }
